@@ -13,6 +13,22 @@
     <form id="survey-form">
         <label for="Name">Name</label><br>
         <input type="text" id ="name" class="name" placeholder="Enter your name" required>
+        <label for="Email">Email</label><br>
+        <input type="text" id ="email" class="email" placeholder="Enter your Email" required>
+        <label for="Age">Age<span>(optional)</span></label><br>
+        <input type="number" id ="age" class="age" placeholder="Age">
+        <label for="roles">Which option best describes your current role?</label><br>
+        <select id = role>
+            <option value="">Select current role</option>
+            <option value="1">Student</option>
+            <option value="">Full Time Job</option>
+            <option value="">Full time Learner</option>
+            <option value="">Prefer not to say</option>
+            <option value="">Other</option>
+        </select>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" checked /> Personal</label>
+        <label for="business-account"><input id="business-account" type="radio" name="account-type" class="inline" /> Business</label>
+        <label for="personal-account"><input id="personal-account" type="radio" name="account-type" class="inline" checked /> Personal</label>
     </form>
     
 </body>
