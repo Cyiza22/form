@@ -1,6 +1,22 @@
 * {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    font-family: Poppins, sans-serif;
+    background-color:rgba(117, 117, 240, 0.285);
     margin: 0;
     padding: 0;
+    color: azure;
+    box-sizing: border-box;
+    
   }
+  h1{
+    font-size: 32px;
+    text-align: center;
+    font-weight: 500;
+    padding: 20px 4px 0 0;
+  }
+  .h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  
