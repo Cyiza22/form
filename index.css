@@ -21,14 +21,20 @@
   }
   #survey-form{
     background-color: #1b1b32;
-    width: 60vw;
+    width: 100%;
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
     padding-bottom: 2em;
   }
-  label {
-    margin: 4rem 0;
+  section {
+    margin: 1.5rem 0;
+    font-size: 20px;
+    background-color: #1b1b32;
+    
+  }
+  section input:first-child{
+    width: 80%
   }
   
   
