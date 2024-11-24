@@ -12,33 +12,55 @@
     text-align: center;
     font-weight: 500;
     padding: 20px 4px 0 0;
+    background-color:rgba(117, 117, 240, 0.285);
   }
   .h1{
     text-align: center;
     font-style: italic;
     font-size: 18px;
     padding-bottom: 20px;
+    background-color:rgba(117, 117, 240, 0.285);
   }
   #survey-form{
-    /* background-color: #1b1b32;
+    background-color: #1b1b32;
     width: 500px;
-    margin: 0 auto;
-    padding-bottom: 2em; */
-    max-width: 600px;
-    margin: 30px auto;
-    background: rgba(0, 0, 0, 0.8);
-    color: #fff;
+    margin: 20px auto;
     padding: 20px;
     border-radius: 10px;
   }
   section {
-    margin: 1.5rem 0;
+    margin: 0.5rem 0;
     font-size: 20px;
     background-color: #1b1b32;
+    width: 100%
+  }
+  .two{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 0.5em;
     
+
   }
-  section input:first-child{
-    width: 80%
+  .two input,  select, textarea{
+    height: 40px;
+    padding: -20px 0;
+    border-radius: 6px;
+    background-color: azure;
+    color: grey;
   }
+  .two label{
+    padding-bottom: -30px;
+  }
+ 
+
+  input, textarea, select, button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+  }
+
   
   
