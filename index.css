@@ -29,23 +29,31 @@
     border-radius: 10px;
   }
   section {
-    margin: 0.5rem 0;
+    margin: 0.5 0;
     font-size: 20px;
     background-color: #1b1b32;
     width: 100%
   }
-  .two{
+  /* .two, .three, .four, .five , .six{
     display: flex;
     flex-direction: column;
     align-content: center;
-    margin-top: 0.5em;
-    
+    margin: -6px 0;
 
-  }
-  .two input,  select, textarea{
+  } */
+  .two input,  select{
     height: 40px;
-    padding: -20px 0;
+    width: 99%;
+    padding: -25px 0;
     border-radius: 6px;
+    background-color: azure;
+    color: grey;
+  }
+  textarea{
+    width: 99%;
+    height: 100px;
+    padding: -20px 0;
+    border-radius: 2px;
     background-color: azure;
     color: grey;
   }
@@ -54,13 +62,25 @@
   }
  
 
-  input, textarea, select, button {
+  input, textarea, select {
     margin-top: 10px;
     padding: 10px;
     font-size: 16px;
     border-radius: 5px;
     border: none;
   }
-
+  
+  input[type="radio"], input[type="checkbox"] {
+    margin: 5px;
+  }
+  .button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    width: 99%
+  }
+  button:hover {
+    background-color: #45a049;
+  }
   
   
